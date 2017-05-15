@@ -1,0 +1,48 @@
+{
+    "name": "edutalk-cms/base",
+    "description": "Edutalk core system",
+    "license": "MIT",
+    "homepage": "http://edutalk.vn",
+    "authors": [
+        {
+            "name": "Vuong Pham",
+            "email": "kingdom102@gmail.com"
+        }
+    ],
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://github.com/maduong/base.git"
+        },
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "doctrine/dbal": "^2.5",
+        "laravelcollective/html": "5.4.*",
+        "yajra/laravel-datatables-oracle": "^7.0",
+        "edutalk-cms/acl": "3.1.*",
+        "edutalk-cms/assets-management": "3.1.*",
+        "edutalk-cms/caching": "3.1.*",
+        "edutalk-cms/elfinder": "3.1.*",
+        "edutalk-cms/hook": "3.1.*",
+        "edutalk-cms/menu": "3.1.*",
+        "edutalk-cms/modules-management": "3.1.*",
+        "edutalk-cms/settings": "3.1.*",
+        "edutalk-cms/themes-management": "3.1.*",
+        "edutalk-cms/users": "3.1.*",
+        "edutalk-cms/pages": "3.1.*",
+        "edutalk-cms/shortcode": "3.1.*",
+        "edutalk-cms/custom-fields": "3.1.*",
+        "edutalk-cms/static-blocks": "3.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edutalk\\Base\\": "src/"
+        },
+        "files": [
+
+        ]
+    },
+    "minimum-stability": "master",
+    "prefer-stable" : true,
+}

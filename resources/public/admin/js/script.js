@@ -1,0 +1,2 @@
+!function(e){"use strict";$(document).ready(function(){Edutalk.isIE(function(){}),$.ajaxSetup({headers:{"X-CSRF-TOKEN":$('meta[name="csrf-token"]').attr("content")}}),Edutalk.handleSelectMediaBox(),Edutalk.tabChangeUrl(),Edutalk.initAjax(),Edutalk.fixedTopFormActions()}),$(window).load(function(){Edutalk.hideLoading()})}(this.LaravelElixirBundle=this.LaravelElixirBundle||{});
+//# sourceMappingURL=script.js.map
