@@ -1,5 +1,4 @@
 <?php
-var_dump('asdsadas'); die;
 /**
  * Filters when update data
  */
