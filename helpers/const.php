@@ -110,8 +110,8 @@ if (!defined('EDUTALK_DASHBOARD_STATS')) {
     define('EDUTALK_DASHBOARD_STATS', 'edutalk-dashboard.index.stat-boxes');
 }
 
-if (!defined('Edutalk_DASHBOARD_OTHERS')) {
-    define('Edutalk_DASHBOARD_OTHERS', 'edutalk-dashboard.index.other');
+if (!defined('EDUTALK_DASHBOARD_OTHERS')) {
+    define('EDUTALK_DASHBOARD_OTHERS', 'edutalk-dashboard.index.other');
 }
 
 

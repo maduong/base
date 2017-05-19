@@ -5,7 +5,7 @@ use Edutalk\Base\Models\EloquentBase as BaseModel;
 
 class ViewTracker extends BaseModel implements ViewTrackerModelContract
 {
-    protected $table = 'view_trackers';
+    protected $table = 't_view_trackers';
 
     protected $primaryKey = 'id';
 

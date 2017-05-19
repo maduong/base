@@ -31,11 +31,11 @@ if (!function_exists('get_cms_version')) {
             $packages = collect(array_get($composerLockFile, 'packages'));
             $edutalkBase = $packages->where('name', '=', 'edutalk-cms/base')->first();
             if (!$edutalkBase) {
-                return '3.1';
+                return '1.0';
             }
             return array_get($edutalkBase, 'version');
         } catch (\Exception $exception) {
-            return '3.1';
+            return '1.0';
         }
     }
 }

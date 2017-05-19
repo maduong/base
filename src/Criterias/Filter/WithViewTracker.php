@@ -22,7 +22,7 @@ class WithViewTracker extends AbstractCriteria
     public function apply($model, AbstractRepositoryContract $repository)
     {
         return $model
-            ->leftJoin('view_trackers', $this->relatedModel->getTable() . '.' . $this->relatedModel->getPrimaryKey(), '=', 'view_trackers.entity_id')
-            ->where('view_trackers.entity', '=', get_class($this->relatedModel));
+            ->leftJoin('t_view_trackers', $this->relatedModel->getTable() . '.' . $this->relatedModel->getPrimaryKey(), '=', 't_view_trackers.entity_id')
+            ->where('t_view_trackers.entity', '=', get_class($this->relatedModel));
     }
 }

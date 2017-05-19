@@ -2,7 +2,7 @@
     <!-- Logo -->
     <a href="{{ asset('') }}" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>WE</b></span>
+        <span class="logo-mini"><b>EDT</b></span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"><b>Edutalk</b></span>
     </a>
